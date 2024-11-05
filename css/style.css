@@ -1,0 +1,232 @@
+.navbar{
+    /* background-color: skyblue; */
+    margin: 0;
+    padding: 10px;
+}
+.navbar li{
+    display: none;
+    padding: 10px;
+    list-style-type: none;
+}
+
+body{
+    margin: 0;
+}
+
+form{
+    margin: 15px;
+}
+
+#hero{
+    background-image: url(../images/img6.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background-position: center;
+    overflow: hidden;
+}
+
+.overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    top: 0;
+    left: 0;
+}
+
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    text-align: center;
+}
+
+#hero_about{
+    background-image: url(../images/img6.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background-position: center;
+    overflow: hidden;
+}
+
+#hero_admission{
+    background-image: url(../images/img7.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background-position: center;
+    overflow: hidden;
+}
+ 
+#hero_contact{
+    background-image: url(../images/img8.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background-position: center;
+    overflow: hidden;
+}
+
+#hero_blog{
+    background-image: url(../images/img9.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background-position: center;
+    overflow: hidden;
+}
+
+#hero_corriculum{
+    background-image: url(../images/img10.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background-position: center;
+    overflow: hidden;
+}
+
+/* Enrol section styling*/
+.enrol .container{
+    max-width: 1200px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.class{
+    width: calc(33.33% -20px);
+    background-color: skyblue;
+    color: black;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.years{
+    display: flex;
+    align-items: center;
+}
+
+.years img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+
+.comment{
+    font-style: italic;
+}
+
+.enrol h2{
+    text-align: center;
+    font-size: 30px;
+    margin: 30px 0 ;
+}
+
+body{
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul{
+    list-style: none;
+}
+
+.footer{
+    background-color: #24262b;
+    padding: 70px 0;
+}
+
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-col h4{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+ .footer-col h4::before{
+    content:'';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+ }
+
+ .footer-col ul li:not(:last-child){
+    margin-bottom: 10px
+ }
+ .footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+ }
+
+ .footer-col ul li a:hover{
+    color: #ffffff;
+    padding-left: 8px;
+ }
+
+.footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color:rgba(225, 225, 225, 0.2);
+    margin:0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #fff;
+    transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover{
+    color: #24262b;
+    background-color: #fff;
+}
+/* reponsive */
+@media(max-width: 767px){
+    .footer{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+@media(max-width: 574px){
+    .footer{
+        width: 100px
+    }
+}
